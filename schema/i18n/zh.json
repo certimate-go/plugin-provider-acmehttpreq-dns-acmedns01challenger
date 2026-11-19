@@ -1,0 +1,17 @@
+{
+  "plugin.acmehttpreq-dns.name": "自定义基于 HTTP 请求的 ACME 质询验证端点",
+  "plugin.acmehttpreq-dns.description": "通过 自定义基于 HTTP 请求的 ACME 质询验证端点 完成 ACME DNS-01 验证。",
+  "plugin.acmehttpreq-dns.access.endpoint.label": "服务端点",
+  "plugin.acmehttpreq-dns.access.endpoint.tooltip": "这是什么？请参阅 <a href=\"https://go-acme.github.io/lego/dns/httpreq/\" target=\"_blank\">https://go-acme.github.io/lego/dns/httpreq/</a>",
+  "plugin.acmehttpreq-dns.access.endpoint.placeholder": "请输入服务端点",
+  "plugin.acmehttpreq-dns.access.mode.label": "模式",
+  "plugin.acmehttpreq-dns.access.mode.tooltip": "这是什么？请参阅 <a href=\"https://go-acme.github.io/lego/dns/httpreq/\" target=\"_blank\">https://go-acme.github.io/lego/dns/httpreq/</a>",
+  "plugin.acmehttpreq-dns.access.mode.placeholder": "请选择模式",
+  "plugin.acmehttpreq-dns.access.username.label": "HTTP 基本认证用户名（可选）",
+  "plugin.acmehttpreq-dns.access.username.tooltip": "这是什么？请参阅 <a href=\"https://go-acme.github.io/lego/dns/httpreq/\" target=\"_blank\">https://go-acme.github.io/lego/dns/httpreq/</a>",
+  "plugin.acmehttpreq-dns.access.username.placeholder": "请输入 HTTP 基本认证用户名",
+  "plugin.acmehttpreq-dns.access.password.label": "HTTP 基本认证密码（可选）",
+  "plugin.acmehttpreq-dns.access.password.tooltip": "这是什么？请参阅 <a href=\"https://go-acme.github.io/lego/dns/httpreq/\" target=\"_blank\">https://go-acme.github.io/lego/dns/httpreq/</a>",
+  "plugin.acmehttpreq-dns.access.password.placeholder": "请输入 HTTP 基本认证密码",
+  "plugin.acmehttpreq-dns.access.mode.default": "默认"
+}

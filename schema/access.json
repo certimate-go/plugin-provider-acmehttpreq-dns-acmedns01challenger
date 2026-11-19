@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "form/v1",
+  "provider": "acmehttpreq",
+  "category": "access",
+  "schema": {
+    "columns": [
+      {
+        "name": "endpoint",
+        "valueType": "text",
+        "labelKey": "plugin.acmehttpreq-dns.access.endpoint.label",
+        "tooltipKey": "plugin.acmehttpreq-dns.access.endpoint.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.acmehttpreq-dns.access.endpoint.placeholder",
+        "required": true,
+        "default": "https://example.com/api/",
+        "validateWhen": [
+          {
+            "validator": "url"
+          }
+        ]
+      },
+      {
+        "name": "mode",
+        "valueType": "select",
+        "labelKey": "plugin.acmehttpreq-dns.access.mode.label",
+        "tooltipKey": "plugin.acmehttpreq-dns.access.mode.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.acmehttpreq-dns.access.mode.placeholder",
+        "default": "",
+        "options": [
+          {
+            "value": "",
+            "labelKey": "plugin.acmehttpreq-dns.access.mode.default"
+          },
+          {
+            "value": "RAW"
+          }
+        ]
+      },
+      {
+        "name": "username",
+        "valueType": "text",
+        "labelKey": "plugin.acmehttpreq-dns.access.username.label",
+        "tooltipKey": "plugin.acmehttpreq-dns.access.username.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.acmehttpreq-dns.access.username.placeholder"
+      },
+      {
+        "name": "password",
+        "valueType": "secret",
+        "labelKey": "plugin.acmehttpreq-dns.access.password.label",
+        "tooltipKey": "plugin.acmehttpreq-dns.access.password.tooltip",
+        "tooltipHtml": true,
+        "placeholderKey": "plugin.acmehttpreq-dns.access.password.placeholder",
+        "secret": true
+      }
+    ]
+  }
+}
